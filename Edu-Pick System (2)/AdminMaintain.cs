@@ -27,6 +27,11 @@ namespace Edu_Pick_System__2_
 
         private void btnView_Click(object sender, EventArgs e)
         {
+            displayData();
+        }
+
+        private void displayData()
+        {
             conn = new SqlConnection(conStr);
             conn.Open();
 
@@ -43,6 +48,31 @@ namespace Edu_Pick_System__2_
             mydataGView.DataMember = "maintainAccount";
 
             conn.Close();
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            string listNumber = txtSearch.Text;
+
+            try
+            {
+                conn.Open();
+
+                string sql = @"DELETE FROM maintainAccount WHERE Id = @Id";
+                comm = new SqlCommand(sql, conn);
+
+                comm.Parameters.AddWithValue("@Id", listNumber);
+                comm.ExecuteNonQuery();
+
+                conn.Close();
+
+                displayData();
+            }
+            catch(SqlException error)
+            {
+                MessageBox.Show(error.Message);
+            }
+
         }
     }
 }

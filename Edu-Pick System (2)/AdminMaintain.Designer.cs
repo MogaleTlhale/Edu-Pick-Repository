@@ -68,6 +68,7 @@ namespace Edu_Pick_System__2_
             this.btnRemove.TabIndex = 15;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // btnView
             // 
