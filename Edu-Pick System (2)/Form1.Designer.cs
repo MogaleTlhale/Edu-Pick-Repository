@@ -42,7 +42,7 @@ namespace Edu_Pick_System__2_
             // 
             this.lbCourses.BackColor = System.Drawing.Color.White;
             this.lbCourses.FormattingEnabled = true;
-            this.lbCourses.Location = new System.Drawing.Point(152, 69);
+            this.lbCourses.Location = new System.Drawing.Point(155, 81);
             this.lbCourses.Name = "lbCourses";
             this.lbCourses.Size = new System.Drawing.Size(353, 199);
             this.lbCourses.TabIndex = 0;
@@ -63,7 +63,7 @@ namespace Edu_Pick_System__2_
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(148, 46);
+            this.label2.Location = new System.Drawing.Point(151, 58);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(272, 20);
             this.label2.TabIndex = 3;
@@ -85,7 +85,7 @@ namespace Edu_Pick_System__2_
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(518, 185);
+            this.label1.Location = new System.Drawing.Point(514, 182);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(200, 13);
             this.label1.TabIndex = 6;

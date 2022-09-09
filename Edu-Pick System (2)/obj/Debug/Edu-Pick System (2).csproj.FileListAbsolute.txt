@@ -9,3 +9,16 @@ C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2
 C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.CoreCompileInputs.cache
 C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).exe
 C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).pdb
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\bin\Debug\Edupickdatabase.mdf
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\bin\Debug\Edupickdatabase_log.ldf
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\bin\Debug\mainDatabase.mdf
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\bin\Debug\mainDatabase_log.ldf
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.AssemblyReference.cache
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.Form1.resources
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.frmPersonalDetails.resources
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.Properties.Resources.resources
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.Student_Results.resources
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.GenerateResource.cache
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.CoreCompileInputs.cache
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).exe
+C:\Users\smach\Source\Repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).pdb
