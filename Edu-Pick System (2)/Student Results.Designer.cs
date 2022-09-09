@@ -53,8 +53,11 @@ namespace Edu_Pick_System__2_
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnSave = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.lblAPS = new System.Windows.Forms.Label();
+            this.btnAPS = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtboxSubject3
@@ -230,24 +233,56 @@ namespace Edu_Pick_System__2_
             this.label3.TabIndex = 22;
             this.label3.Text = "Additional subjects";
             // 
-            // btnSave
+            // btnNext
             // 
-            this.btnSave.Location = new System.Drawing.Point(263, 406);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
-            this.btnSave.TabIndex = 23;
-            this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnNext.Location = new System.Drawing.Point(462, 406);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(75, 23);
+            this.btnNext.TabIndex = 23;
+            this.btnNext.Text = "Next";
+            this.btnNext.UseVisualStyleBackColor = true;
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(412, 406);
+            this.btnClear.Location = new System.Drawing.Point(335, 406);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 24;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnBack
+            // 
+            this.btnBack.Location = new System.Drawing.Point(217, 406);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(75, 23);
+            this.btnBack.TabIndex = 25;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            // 
+            // lblAPS
+            // 
+            this.lblAPS.AutoSize = true;
+            this.lblAPS.BackColor = System.Drawing.Color.Transparent;
+            this.lblAPS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAPS.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblAPS.Location = new System.Drawing.Point(388, 32);
+            this.lblAPS.Name = "lblAPS";
+            this.lblAPS.Size = new System.Drawing.Size(98, 20);
+            this.lblAPS.TabIndex = 26;
+            this.lblAPS.Text = "Your APS is:";
+            this.lblAPS.UseWaitCursor = true;
+            // 
+            // btnAPS
+            // 
+            this.btnAPS.Location = new System.Drawing.Point(217, 18);
+            this.btnAPS.Name = "btnAPS";
+            this.btnAPS.Size = new System.Drawing.Size(131, 47);
+            this.btnAPS.TabIndex = 27;
+            this.btnAPS.Text = "Calculate APS";
+            this.btnAPS.UseVisualStyleBackColor = true;
+            this.btnAPS.Click += new System.EventHandler(this.btnAPS_Click);
             // 
             // Student_Results
             // 
@@ -256,8 +291,11 @@ namespace Edu_Pick_System__2_
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(729, 472);
+            this.Controls.Add(this.btnAPS);
+            this.Controls.Add(this.lblAPS);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnNext);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -314,7 +352,10 @@ namespace Edu_Pick_System__2_
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Label lblAPS;
+        private System.Windows.Forms.Button btnAPS;
     }
 }

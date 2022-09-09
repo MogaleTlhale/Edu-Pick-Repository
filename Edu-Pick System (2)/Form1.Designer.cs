@@ -33,7 +33,6 @@ namespace Edu_Pick_System__2_
             this.lbCourses = new System.Windows.Forms.ListBox();
             this.cbChooseCourse = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblAPS = new System.Windows.Forms.Label();
             this.btnChooseCourse = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblChosenCourse = new System.Windows.Forms.Label();
@@ -71,19 +70,6 @@ namespace Edu_Pick_System__2_
             this.label2.Text = "Below are the recommended courses";
             this.label2.UseWaitCursor = true;
             // 
-            // lblAPS
-            // 
-            this.lblAPS.AutoSize = true;
-            this.lblAPS.BackColor = System.Drawing.Color.Transparent;
-            this.lblAPS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAPS.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblAPS.Location = new System.Drawing.Point(12, 9);
-            this.lblAPS.Name = "lblAPS";
-            this.lblAPS.Size = new System.Drawing.Size(98, 20);
-            this.lblAPS.TabIndex = 4;
-            this.lblAPS.Text = "Your APS is:";
-            this.lblAPS.UseWaitCursor = true;
-            // 
             // btnChooseCourse
             // 
             this.btnChooseCourse.Location = new System.Drawing.Point(288, 394);
@@ -104,6 +90,7 @@ namespace Edu_Pick_System__2_
             this.label1.Size = new System.Drawing.Size(200, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Select arrow below and choose a course";
+            this.label1.UseWaitCursor = true;
             // 
             // lblChosenCourse
             // 
@@ -115,6 +102,7 @@ namespace Edu_Pick_System__2_
             this.lblChosenCourse.Size = new System.Drawing.Size(151, 13);
             this.lblChosenCourse.TabIndex = 7;
             this.lblChosenCourse.Text = "The course you\'ve selected is:";
+            this.lblChosenCourse.UseWaitCursor = true;
             // 
             // Form1
             // 
@@ -126,7 +114,6 @@ namespace Edu_Pick_System__2_
             this.Controls.Add(this.lblChosenCourse);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnChooseCourse);
-            this.Controls.Add(this.lblAPS);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbChooseCourse);
             this.Controls.Add(this.lbCourses);
@@ -144,7 +131,6 @@ namespace Edu_Pick_System__2_
         private System.Windows.Forms.ListBox lbCourses;
         private System.Windows.Forms.ComboBox cbChooseCourse;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblAPS;
         private System.Windows.Forms.Button btnChooseCourse;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblChosenCourse;

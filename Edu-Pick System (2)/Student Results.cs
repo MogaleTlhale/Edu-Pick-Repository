@@ -20,6 +20,7 @@ namespace Edu_Pick_System__2_
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtboxSubject1.Text = "";
+
             txtboxSubject2.Text = "";
             txtboxSubject3.Text = "";
             txtboxSubject4.Text = "";
@@ -40,6 +41,11 @@ namespace Edu_Pick_System__2_
             txtboxMark8.Text = "";
             txtboxMark9.Text = "";
             txtboxMark10.Text = "";
-        }   
+        }
+
+        private void btnAPS_Click(object sender, EventArgs e)
+        {
+       
+        }
     }
 }
