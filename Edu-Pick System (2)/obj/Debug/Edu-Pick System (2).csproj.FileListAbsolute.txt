@@ -1,0 +1,11 @@
+C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\bin\Debug\Edu-Pick System (2).exe.config
+C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\bin\Debug\Edu-Pick System (2).exe
+C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\bin\Debug\Edu-Pick System (2).pdb
+C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.AssemblyReference.cache
+C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.Form1.resources
+C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.Properties.Resources.resources
+C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.Student_Results.resources
+C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.GenerateResource.cache
+C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.CoreCompileInputs.cache
+C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).exe
+C:\Users\Mogale Tlhale\OneDrive\Documents\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).pdb

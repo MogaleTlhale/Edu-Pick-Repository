@@ -16,5 +16,30 @@ namespace Edu_Pick_System__2_
         {
             InitializeComponent();
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtboxSubject1.Text = "";
+            txtboxSubject2.Text = "";
+            txtboxSubject3.Text = "";
+            txtboxSubject4.Text = "";
+            txtboxSubject5.Text = "";
+            txtboxSubject6.Text = "";
+            txtboxSubject7.Text = "";
+            txtboxSubject8.Text = "";
+            txtboxSubject9.Text = "";
+            txtboxSubject10.Text = "";
+
+            txtboxMark1.Text = "";
+            txtboxMark2.Text = "";
+            txtboxMark3.Text = "";
+            txtboxMark4.Text = "";
+            txtboxMark5.Text = "";
+            txtboxMark6.Text = "";
+            txtboxMark7.Text = "";
+            txtboxMark8.Text = "";
+            txtboxMark9.Text = "";
+            txtboxMark10.Text = "";
+        }   
     }
 }

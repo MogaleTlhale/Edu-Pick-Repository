@@ -86,7 +86,7 @@ namespace Edu_Pick_System__2_
             // 
             // btnChooseCourse
             // 
-            this.btnChooseCourse.Location = new System.Drawing.Point(291, 311);
+            this.btnChooseCourse.Location = new System.Drawing.Point(288, 394);
             this.btnChooseCourse.Name = "btnChooseCourse";
             this.btnChooseCourse.Size = new System.Drawing.Size(109, 63);
             this.btnChooseCourse.TabIndex = 5;
