@@ -276,7 +276,7 @@ namespace Edu_Pick_System__2_
             // 
             // btnAPS
             // 
-            this.btnAPS.Location = new System.Drawing.Point(217, 18);
+            this.btnAPS.Location = new System.Drawing.Point(217, 32);
             this.btnAPS.Name = "btnAPS";
             this.btnAPS.Size = new System.Drawing.Size(131, 47);
             this.btnAPS.TabIndex = 27;
