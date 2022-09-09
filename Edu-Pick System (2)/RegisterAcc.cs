@@ -47,37 +47,76 @@ namespace Edu_Pick_System__2_
             PhoneNum = txtNumber.Text;
             Password = txtPassword.Text;
             CPassword = txtCPassword.Text;
-            try
+            if (RBStudent.Checked)
             {
-                conn2.Open();
-                string sql_insert = "Insert Into StudentTable Values('" + FName + "','" +
-                LName + "','" + Email + "','" + PhoneNum + "','" + Password + "','" + CPassword + "')";
-                SqlCommand cmd = new SqlCommand(sql_insert, conn2);
+                try
+                {
+                    conn2.Open();
+                    string sql_insert = "Insert Into StudentTable Values('" + FName + "','" +
+                    LName + "','" + Email + "','" + PhoneNum + "','" + Password + "','" + CPassword + "')";
+                    SqlCommand cmd = new SqlCommand(sql_insert, conn2);
 
+
+                    adapter = new SqlDataAdapter();
+
+
+                    adapter.InsertCommand = cmd;
+
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Data successfully inserted");
+                    conn2.Close();
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                finally
+                {
+                    txtName.Clear();
+                    txtLName.Clear();
+                    txtEmail.Clear();
+                    txtNumber.Clear();
+                    txtPassword.Clear();
+                    txtCPassword.Clear();
+
+                }
                 
-                adapter = new SqlDataAdapter();
-
-
-                adapter.InsertCommand = cmd;
-
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Data successfully inserted");
-                conn2.Close();
             }
-            catch (SqlException ex)
+            if (RBAdmin.Checked)
             {
-                MessageBox.Show(ex.Message);
+                try
+                {
+                    conn.Open();
+                    string sql_insert = "Insert Into AdminTable Values('" + FName + "','" +
+                    LName + "','" + Email + "','" + PhoneNum + "','" + Password + "','" + CPassword + "')";
+                    SqlCommand cmd = new SqlCommand(sql_insert, conn);
+
+
+                    adapter = new SqlDataAdapter();
+
+
+                    adapter.InsertCommand = cmd;
+
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Data successfully inserted");
+                    conn.Close();
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                finally
+                {
+                    txtName.Clear();
+                    txtLName.Clear();
+                    txtEmail.Clear();
+                    txtNumber.Clear();
+                    txtPassword.Clear();
+                    txtCPassword.Clear();
+
+                }
             }
-            finally
-            {
-                txtName.Clear();
-                txtLName.Clear();
-                txtEmail.Clear();
-                txtNumber.Clear();
-                txtPassword.Clear();
-                txtCPassword.Clear();
-                
-            }
+
         }
     }
 }
