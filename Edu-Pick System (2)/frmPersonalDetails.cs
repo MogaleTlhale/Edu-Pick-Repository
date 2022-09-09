@@ -24,24 +24,56 @@ namespace Edu_Pick_System__2_
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            connect.Open();
-
-            string sql = "INSERT INTO Movie(ID_No,Passport_No,Nationality,Gender,Race,DateOfBirth) VALUES(@ID_No,@Passport_No,@Nationality,@Gender,@Race,@DateOfBirth)";
-            comm = new SqlCommand(sql, connect);
-            comm.Parameters.AddWithValue("@ID_No", tbID.Text);
-            comm.Parameters.AddWithValue("@Passport_No", tbPassport.Text);
-            comm.Parameters.AddWithValue("@Nationality", cbNationality.SelectedIndex);
-            comm.Parameters.AddWithValue("@Gender", cbGender.SelectedIndex);
-            comm.Parameters.AddWithValue("@Race", cbRace.SelectedIndex);
-            comm.Parameters.AddWithValue("@DateOfBirth", DateTimePicker.MinimumDateTime);
-
-            if (cbRace.SelectedItem == "Others")
+            try 
             {
-                comm.Parameters.AddWithValue("@Race", tbSpecify.Text);
-            }
+                connect.Open();
+                int passports = Convert.ToInt32(tbID.Text);
+                string race = Convert.ToString(cbRace.SelectedIndex);
+                string nationality = Convert.ToString(cbNationality.SelectedIndex);
+                string gender = Convert.ToString(cbGender.SelectedIndex);
 
-            comm.ExecuteNonQuery();
-            connect.Close();
+                string sql = "INSERT INTO Movie(ID_No,Passport_No,Nationality,Gender,Race,DateOfBirth) VALUES(@ID_No,@Passport_No,@Nationality,@Gender,@Race,@DateOfBirth)";
+                comm = new SqlCommand(sql, connect);
+                comm.Parameters.AddWithValue("@ID_No", tbID.Text);
+                comm.Parameters.AddWithValue("@Passport_No", tbPassport.Text);
+                comm.Parameters.AddWithValue("@Nationality", nationality);
+                comm.Parameters.AddWithValue("@Gender", gender);
+                comm.Parameters.AddWithValue("@Race", race);
+                comm.Parameters.AddWithValue("@DateOfBirth", DateTimePicker.MinimumDateTime);
+
+                if (race == "Others")
+                {
+                    comm.Parameters.AddWithValue("@Race", tbSpecify.Text);
+                }
+                else
+                {
+                    MessageBox.Show("Enter your race!");
+                }
+
+                comm.ExecuteNonQuery();
+                connect.Close();
+            }
+            catch(SqlException error)
+            {
+                MessageBox.Show(error.Message);
+            }
+            MessageBox.Show("Saved successfully.");
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            tbID.Clear();
+            tbPassport.Clear();
+            tbSpecify.Clear();
+            cbGender.SelectedIndex = -1;
+            cbNationality.SelectedIndex = -1;
+            cbRace.SelectedIndex = -1;
+        }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            Student_Results myResults = new Student_Results();
+            myResults.ShowDialog();
         }
     }
 }
