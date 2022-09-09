@@ -1,0 +1,5 @@
+C:\Users\Student\source\repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.Properties.Resources.resources
+C:\Users\Student\source\repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.RegisterAcc.resources
+C:\Users\Student\source\repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.GenerateResource.cache
+C:\Users\Student\source\repos\MogaleTlhale\Edu-Pick-Repository\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.CoreCompileInputs.cache
