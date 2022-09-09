@@ -16,5 +16,12 @@ namespace Edu_Pick_System__2_
         {
             InitializeComponent();
         }
+
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+            var newForm = new AdminMaintain();
+            newForm.Show();
+            this.Hide();
+        }
     }
 }

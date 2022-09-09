@@ -1,0 +1,15 @@
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\bin\Debug\Maintain_Account.mdf
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\bin\Debug\Maintain_Account_log.ldf
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\bin\Debug\Edu-Pick System (2).exe.config
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\bin\Debug\Edu-Pick System (2).exe
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\bin\Debug\Edu-Pick System (2).pdb
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.AssemblyReference.cache
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.AdminMaintain.resources
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.Form1.resources
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.Properties.Resources.resources
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.Student_Results.resources
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\obj\Debug\Edu_Pick_System__2_.StudentMaintain.resources
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.GenerateResource.cache
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).csproj.CoreCompileInputs.cache
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).exe
+C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System (2)\obj\Debug\Edu-Pick System (2).pdb

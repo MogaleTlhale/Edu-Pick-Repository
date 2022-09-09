@@ -30,91 +30,88 @@ namespace Edu_Pick_System__2_
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.lbCourses = new System.Windows.Forms.ListBox();
-            this.cbChooseCourse = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblAPS = new System.Windows.Forms.Label();
-            this.btnChooseCourse = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblChosenCourse = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnCreate = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // lbCourses
-            // 
-            this.lbCourses.BackColor = System.Drawing.Color.White;
-            this.lbCourses.FormattingEnabled = true;
-            this.lbCourses.Location = new System.Drawing.Point(152, 69);
-            this.lbCourses.Name = "lbCourses";
-            this.lbCourses.Size = new System.Drawing.Size(353, 199);
-            this.lbCourses.TabIndex = 0;
-            this.lbCourses.UseWaitCursor = true;
-            // 
-            // cbChooseCourse
-            // 
-            this.cbChooseCourse.FormattingEnabled = true;
-            this.cbChooseCourse.Location = new System.Drawing.Point(521, 216);
-            this.cbChooseCourse.Name = "cbChooseCourse";
-            this.cbChooseCourse.Size = new System.Drawing.Size(159, 21);
-            this.cbChooseCourse.TabIndex = 1;
-            this.cbChooseCourse.UseWaitCursor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(148, 46);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(272, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Below are the recommended courses";
-            this.label2.UseWaitCursor = true;
-            // 
-            // lblAPS
-            // 
-            this.lblAPS.AutoSize = true;
-            this.lblAPS.BackColor = System.Drawing.Color.Transparent;
-            this.lblAPS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAPS.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblAPS.Location = new System.Drawing.Point(12, 9);
-            this.lblAPS.Name = "lblAPS";
-            this.lblAPS.Size = new System.Drawing.Size(98, 20);
-            this.lblAPS.TabIndex = 4;
-            this.lblAPS.Text = "Your APS is:";
-            this.lblAPS.UseWaitCursor = true;
-            // 
-            // btnChooseCourse
-            // 
-            this.btnChooseCourse.Location = new System.Drawing.Point(291, 311);
-            this.btnChooseCourse.Name = "btnChooseCourse";
-            this.btnChooseCourse.Size = new System.Drawing.Size(109, 63);
-            this.btnChooseCourse.TabIndex = 5;
-            this.btnChooseCourse.Text = "Confirm Course";
-            this.btnChooseCourse.UseVisualStyleBackColor = true;
-            this.btnChooseCourse.UseWaitCursor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(518, 185);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(26, 185);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Select arrow below and choose a course";
+            this.label1.Size = new System.Drawing.Size(74, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Username:";
             // 
-            // lblChosenCourse
+            // textBox1
             // 
-            this.lblChosenCourse.AutoSize = true;
-            this.lblChosenCourse.BackColor = System.Drawing.Color.Transparent;
-            this.lblChosenCourse.ForeColor = System.Drawing.Color.Transparent;
-            this.lblChosenCourse.Location = new System.Drawing.Point(518, 255);
-            this.lblChosenCourse.Name = "lblChosenCourse";
-            this.lblChosenCourse.Size = new System.Drawing.Size(151, 13);
-            this.lblChosenCourse.TabIndex = 7;
-            this.lblChosenCourse.Text = "The course you\'ve selected is:";
+            this.textBox1.Location = new System.Drawing.Point(119, 184);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(207, 20);
+            this.textBox1.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(26, 242);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(71, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Password:";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(119, 241);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(207, 20);
+            this.textBox2.TabIndex = 3;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(61, 290);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(84, 17);
+            this.checkBox1.TabIndex = 4;
+            this.checkBox1.Text = "Save details";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(97, 336);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Login";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnCreate
+            // 
+            this.btnCreate.Location = new System.Drawing.Point(61, 382);
+            this.btnCreate.Name = "btnCreate";
+            this.btnCreate.Size = new System.Drawing.Size(189, 23);
+            this.btnCreate.TabIndex = 6;
+            this.btnCreate.Text = "Create Account";
+            this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(242, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(133, 31);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Welcome";
             // 
             // Form1
             // 
@@ -122,17 +119,18 @@ namespace Edu_Pick_System__2_
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(714, 469);
-            this.Controls.Add(this.lblChosenCourse);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnChooseCourse);
-            this.Controls.Add(this.lblAPS);
+            this.ClientSize = new System.Drawing.Size(632, 445);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.btnCreate);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.cbChooseCourse);
-            this.Controls.Add(this.lbCourses);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Name = "Form1";
-            this.Text = "Choose Course";
+            this.Text = "Welcome Form";
             this.UseWaitCursor = true;
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -141,13 +139,14 @@ namespace Edu_Pick_System__2_
 
         #endregion
 
-        private System.Windows.Forms.ListBox lbCourses;
-        private System.Windows.Forms.ComboBox cbChooseCourse;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblAPS;
-        private System.Windows.Forms.Button btnChooseCourse;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblChosenCourse;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCreate;
+        private System.Windows.Forms.Label label3;
     }
 }
 
