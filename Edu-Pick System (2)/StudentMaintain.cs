@@ -16,5 +16,12 @@ namespace Edu_Pick_System__2_
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var newForm = new deleteAccStudent();
+            newForm.Show();
+            this.Hide();
+        }
     }
 }

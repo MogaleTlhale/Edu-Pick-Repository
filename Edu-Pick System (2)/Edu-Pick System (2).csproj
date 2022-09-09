@@ -67,6 +67,12 @@
     <Compile Include="AdminMaintain.Designer.cs">
       <DependentUpon>AdminMaintain.cs</DependentUpon>
     </Compile>
+    <Compile Include="deleteAccStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteAccStudent.Designer.cs">
+      <DependentUpon>deleteAccStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </Compile>
     <EmbeddedResource Include="AdminMaintain.resx">
       <DependentUpon>AdminMaintain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteAccStudent.resx">
+      <DependentUpon>deleteAccStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

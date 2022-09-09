@@ -18,7 +18,7 @@ namespace Edu_Pick_System__2_
             InitializeComponent();
         }
 
-        string conStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Chicco\Desktop\CMPG 223\Group System Design Assignment\System\Edu-Pick System(2)\Maintain_Account.mdf;Integrated Security=True";
+        string conStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Maintain_Account.mdf;Integrated Security=True";
         SqlConnection conn;
         SqlCommand comm;
         SqlDataAdapter adapt;
@@ -35,6 +35,9 @@ namespace Edu_Pick_System__2_
 
             adapt = new SqlDataAdapter();
             dataset = new DataSet();
+
+            adapt.SelectCommand = comm;
+            adapt.Fill(dataset, "maintainAccount");
 
             mydataGView.DataSource = dataset;
             mydataGView.DataMember = "maintainAccount";
