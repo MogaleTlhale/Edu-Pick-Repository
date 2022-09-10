@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Edu_Pick_System__2_
 {
-    public partial class Form1 : Form
+    public partial class Choose_Course__2_ : Form
     {
-        public Form1()
+        public Choose_Course__2_()
         {
             InitializeComponent();
-        }
-
-        private void btnBack_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

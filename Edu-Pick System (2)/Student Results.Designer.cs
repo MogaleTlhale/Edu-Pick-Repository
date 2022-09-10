@@ -269,10 +269,10 @@ namespace Edu_Pick_System__2_
             this.lblAPS.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblAPS.Location = new System.Drawing.Point(388, 32);
             this.lblAPS.Name = "lblAPS";
-            this.lblAPS.Size = new System.Drawing.Size(98, 20);
+            this.lblAPS.Size = new System.Drawing.Size(0, 20);
             this.lblAPS.TabIndex = 26;
-            this.lblAPS.Text = "Your APS is:";
             this.lblAPS.UseWaitCursor = true;
+            this.lblAPS.Click += new System.EventHandler(this.lblAPS_Click);
             // 
             // btnAPS
             // 
@@ -322,6 +322,7 @@ namespace Edu_Pick_System__2_
             this.DoubleBuffered = true;
             this.Name = "Student_Results";
             this.Text = "Student_Results";
+            this.Load += new System.EventHandler(this.Student_Results_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

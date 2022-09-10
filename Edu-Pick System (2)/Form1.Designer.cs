@@ -36,6 +36,8 @@ namespace Edu_Pick_System__2_
             this.btnChooseCourse = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblChosenCourse = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.btnShowCourses = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbCourses
@@ -72,7 +74,7 @@ namespace Edu_Pick_System__2_
             // 
             // btnChooseCourse
             // 
-            this.btnChooseCourse.Location = new System.Drawing.Point(288, 394);
+            this.btnChooseCourse.Location = new System.Drawing.Point(369, 394);
             this.btnChooseCourse.Name = "btnChooseCourse";
             this.btnChooseCourse.Size = new System.Drawing.Size(109, 63);
             this.btnChooseCourse.TabIndex = 5;
@@ -104,6 +106,25 @@ namespace Edu_Pick_System__2_
             this.lblChosenCourse.Text = "The course you\'ve selected is:";
             this.lblChosenCourse.UseWaitCursor = true;
             // 
+            // btnBack
+            // 
+            this.btnBack.Location = new System.Drawing.Point(203, 394);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(104, 63);
+            this.btnBack.TabIndex = 8;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // btnShowCourses
+            // 
+            this.btnShowCourses.Location = new System.Drawing.Point(12, 12);
+            this.btnShowCourses.Name = "btnShowCourses";
+            this.btnShowCourses.Size = new System.Drawing.Size(103, 54);
+            this.btnShowCourses.TabIndex = 9;
+            this.btnShowCourses.Text = "Show courses";
+            this.btnShowCourses.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -111,6 +132,8 @@ namespace Edu_Pick_System__2_
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(714, 469);
+            this.Controls.Add(this.btnShowCourses);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.lblChosenCourse);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnChooseCourse);
@@ -134,6 +157,8 @@ namespace Edu_Pick_System__2_
         private System.Windows.Forms.Button btnChooseCourse;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblChosenCourse;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnShowCourses;
     }
 }
 
